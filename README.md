@@ -8,7 +8,7 @@ The code for the seed scanner is currently not included in this repo, since it u
 - [3bg.csv](https://github.com/Selsion/DSPSeedScanner/blob/main/seed_lists/3bg.csv): All 435383 64-star seeds with 3 blue giants (3 is the max). Each line contains the seed, followed by the 3 blue giants' luminosities sorted from greatest to smallest. Formatted as a csv to allow importing into spreadsheet software
 - [starter_3_moons.txt](https://github.com/Selsion/DSPSeedScanner/blob/main/seed_lists/starter_3_moons.txt): All 588008 seeds where the starter system has 3 moons orbiting the gas/ice giant
 - [starter_2_moons_1_TL.txt](https://github.com/Selsion/DSPSeedScanner/blob/main/seed_lists/starter_2_moons_1_TL.txt): All 436735 seeds where the starter system has 2 moons orbiting the gas/ice giant and 1 tidally locked planet
-- [24_um_patches.txt](https://github.com/Selsion/DSPSeedScanner/blob/main/seed_lists/24_um_patches.txt): All 7701 64-star seeds containing 24 [unipolar magnet vein](https://dsp-wiki.com/Unipolar_Magnet_Vein) patches (24 is the max)
+- [26_um_patches.csv](https://github.com/Selsion/DSPSeedScanner/blob/main/seed_lists/26_um_patches.csv): All 862 64-star seeds containing 26 [unipolar magnet vein](https://dsp-wiki.com/Unipolar_Magnet_Vein) patches (26 is the max). Each line contains the seed, total number of UM veins, and total UM amount
 
 ## Requests
 You can request specific scans by contacting me on discord at Selsion#0769. The scanner does not yet support vein or terrain generation, because that slows down scanning immensely. Here are time estimates for different types of scans over all 100 million 64-star seeds when run with 24 threads with my AMD Ryzen 9 5900X:
