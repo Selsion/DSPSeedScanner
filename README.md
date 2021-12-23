@@ -13,10 +13,11 @@ The code for the seed scanner is currently not included in this repo, since it u
 - [ashen_fire_ice_tl.txt](https://github.com/Selsion/DSPSeedScanner/blob/main/seed_lists/ashen_fire_ice_tl.txt): All 1117 seeds with an ashen gelisol moon with fire ice as well as a tidally locked planet in the starting system. These are ideal for speedrunning.
 - [4_ocean_sats.csv](https://github.com/Selsion/DSPSeedScanner/blob/main/seed_lists/4_ocean_sats.csv): All 7 64-star seeds containing a star with 4 ocean-type planets orbiting a gas planet.
 - [4_tl_O.csv](https://github.com/Selsion/DSPSeedScanner/blob/main/seed_lists/4_tl_O.csv): All 38 64-star seeds containing an O-type star with 4 tidally locked planet orbiting it. Each seed is accompanied with the corresponding O-type's luminosity. 
-- [7_o_types.csv](https://github.com/Selsion/DSPSeedScanner/blob/main/seed_lists/7_o_types.csv): All 38988 64-star seeds with at least 7 O-type stars. Each seed in the csv file is accompannied with the number of O-types in the seed.
+- [7_o_types.csv](https://github.com/Selsion/DSPSeedScanner/blob/main/seed_lists/7_o_types.csv): All 38988 64-star seeds with at least 7 O-type stars. Each seed in the csv file is accompanied with the number of O-types in the seed.
+- [rainbow_giants.csv](https://github.com/Selsion/DSPSeedScanner/blob/main/seed_lists/rainbow_giants.csv): All 124788 64-star seeds with 3 different giant star types. Each seed in the csv file has the counts for each type listed.
 
 ## Requests
-You can request specific scans by contacting me on discord at Selsion#0769. The scanner does not yet support exact vein or terrain generation, because that slows down scanning immensely. I can however get the number of vein patches within an error of +-1. Here are time estimates for different types of scans over all 100 million 64-star seeds when run with 24 threads with my AMD Ryzen 9 5900X:
+You can request specific scans by contacting me on discord at Selsion#0769. The scanner does not yet support exact vein or terrain generation, because that slows down scanning immensely. I can however get the number of vein patches within an error of +-1, and estimate the total vein amounts. Here are time estimates for different types of scans over all 100 million 64-star seeds when run with 24 threads with my AMD Ryzen 9 5900X:
 
 - Scanning only starter system properties (star and/or planet properties): ~70 seconds
 - Scanning only star properties (no planet properties): ~18 minutes
